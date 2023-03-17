@@ -7,7 +7,7 @@ set -eu
 export PYTHONUNBUFFERED=true
 
 # Install Python 3 virtual env
-VIRTUALENV=./venv
+VIRTUALENV=./venv_bin
 
 if [ ! -d $VIRTUALENV ]; then
   python3 -m venv $VIRTUALENV
